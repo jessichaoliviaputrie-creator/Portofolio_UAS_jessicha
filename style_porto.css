@@ -84,7 +84,7 @@ nav ul li a:hover {
     background-position: center;
     background-size: cover;
     min-height: 90vh;
-    padding: 40px 30px 20px ;
+    padding: 40px 30px 20px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -127,9 +127,9 @@ nav ul li a:hover {
     text-decoration: none;
     font-weight: bold;
     transition: all 0.3s ease;
-    border-color: #3b82f6; 
-    box-shadow: 0 0 0 3px rgba(59,130,246,0.25);
-    
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.25);
+
 }
 
 .btn:hover {
@@ -143,7 +143,7 @@ nav ul li a:hover {
     display: flex;
     align-items: center;
     gap: 2rem;
- 
+
 }
 
 .profile-container {
@@ -152,7 +152,7 @@ nav ul li a:hover {
     align-items: center;
     justify-content: center;
     gap: 50px;
-    padding: 40px  20px 20px;
+    padding: 40px 20px 20px;
 }
 
 .profile-text h1 {
@@ -220,7 +220,7 @@ nav ul li a:hover {
 
 /* PROJECT */
 .project {
-    padding: 40px 40px 40px  ;
+    padding: 40px 40px 40px;
     text-align: center;
 
 }
@@ -231,7 +231,7 @@ nav ul li a:hover {
     position: relative;
 }
 
-.project a{
+.project a {
     text-decoration: none;
 }
 
@@ -336,16 +336,16 @@ nav ul li a:hover {
 
 /* informasi */
 #info {
-  display: flex;
-  gap: 40px;
-  margin: auto;
-  padding: 80px 40px 0px;
-  max-width: 1200px;
-  
-    
+    display: flex;
+    gap: 40px;
+    margin: auto;
+    padding: 80px 40px 0px;
+    max-width: 1200px;
+
+
 }
 
-.grid-info{
+.grid-info {
     flex: 1.05;
     display: flex;
     flex-direction: column;
@@ -353,16 +353,16 @@ nav ul li a:hover {
 
 }
 
-.info h4{
+.info h4 {
     font-size: 1.5rem;
 
 }
 
-.info-buble{
+.info-buble {
     display: flex;
     align-items: center;
     gap: 15px;
-    width:100%;
+    width: 100%;
     min-height: 90px;
     background-color: #1e293b;
     color: #cbd5e1;
@@ -371,40 +371,42 @@ nav ul li a:hover {
     transition: transform 0.3s ease;
 }
 
-.info-buble:hover{
+.info-buble:hover {
     transform: scale(1.1);
     cursor: pointer;
 }
-.info-buble i{
+
+.info-buble i {
     font-size: 26px;
-    color:#3b82f6;
+    color: #3b82f6;
     flex-shrink: 0;
-    
+
 }
-.info-buble p{
-    margin:0;
+
+.info-buble p {
+    margin: 0;
     line-height: 1.4;
 }
 
 
 /*form*/
-.Container-f{
-   flex: 0.95;
-   display: flex;
-   flex-direction: column;
-   text-align: start;
+.Container-f {
+    flex: 0.95;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
 }
 
 .Container-f h4 {
     font-size: 1.5rem;
     margin-bottom: 10px;
     text-align: left;
-    
-    
+
+
 }
 
 .Contact-form {
-    width:100% ;
+    width: 100%;
     max-width: 100%;
     background: #ffffff;
     padding: 20px;
@@ -430,18 +432,19 @@ nav ul li a:hover {
     transition: 0.3s ease;
 
 }
-.Contact-form textarea{
+
+.Contact-form textarea {
     min-height: 120px;
     resize: vertical;
 }
 
 .Contact-form input:focus,
-.Contact-form textarea:focus{
+.Contact-form textarea:focus {
     border-color: #3b82f6;
-    box-shadow: 0 0 0 2px rgba(59,130,246,0.25);
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.25);
 }
 
-.Contact-form button{
+.Contact-form button {
     width: 100%;
     padding: 14px;
     border-radius: 10px;
@@ -454,7 +457,7 @@ nav ul li a:hover {
     transition: 0.3s ease;
 }
 
-.Contact-form button:hover{
+.Contact-form button:hover {
     background: #3b82f6;
     transform: translateY(-2px);
 }
@@ -492,7 +495,7 @@ footer {
     color: #ccd1db;
 }
 
-.deskripsi{
+.deskripsi {
     margin-top: 15px;
     display: flex;
     gap: 15px;
@@ -507,21 +510,21 @@ footer {
     font-size: 18px;
 }
 
-.foot-menu ul{
+.foot-menu ul {
     list-style: none;
 }
 
-.foot-menu ul li{
+.foot-menu ul li {
     margin-bottom: 8px;
 }
 
-.foot-menu ul li a{
+.foot-menu ul li a {
     color: #ccd1db;
     text-decoration: none;
     transition: 0.3s ease;
 }
 
-.foot-menu ul li a:hover{
+.foot-menu ul li a:hover {
     color: #3b82f6;
 }
 
@@ -609,73 +612,92 @@ footer {
         aspect-ratio: 16/9;
     }
 
-    .info{
-        flex-direction: column;
-    }
-}
-
-@media(max-width:600px) {
-
-    /*HP*/
-    .beranda h1 {
-        font-size: 2.2rem;
-    }
-
-    .profile {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .social-icons {
-        display: flex;
-        justify-content: center;
-        grid-area: 1rem;
-    }
-
-    .profile img {
-        width: 180px;
-        margin: 0 auto;
-    }
-
-    .profile-text {
-        max-width: 90%;
-    }
-
-    .project-grid {
-        grid-template-columns: 1fr;
-        gap: 15px;
-    }
-
-    .media-item {
-        grid-template-columns: 1fr;
-        gap: 15px;
-        margin: 15px 0;
-    }
-
-    .foot-container {
-        gap: 20px;
-    }
-}
-
-@media(max-width : 768px) {
-    .hamburger {
-        display: block;
-    }
-
-    .navbar ul {
-        position: absolute;
-        top: 100%;
-        right: 20px;
-        background-color: #1e293b;
-        width: 200px;
-        padding: 15px;
-        border-radius: 12px;
-        opacity: 90%;
-        display: none;
+    .info {
         flex-direction: column;
     }
 
-    .navbar.active ul {
-        display: flex;
-    }
+     .deskripsi{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
 }
+
+    @media(max-width:600px) {
+
+        /*HP*/
+        .beranda h1 {
+            font-size: 2.2rem;
+        }
+
+        .profile {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            grid-area: 1rem;
+        }
+
+        .profile img {
+            width: 180px;
+            margin: 0 auto;
+        }
+
+        .profile-text {
+            max-width: 90%;
+        }
+
+        .project-grid {
+            grid-template-columns: 1fr;
+            gap: 15px;
+        }
+
+        .media-item {
+            grid-template-columns: 1fr;
+            gap: 15px;
+            margin: 15px 0;
+        }
+
+        .foot-container {
+            gap: 20px;
+        }
+
+        .deskripsi{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+    }
+
+    @media(max-width : 768px) {
+        .hamburger {
+            display: block;
+        }
+
+        .navbar ul {
+            position: absolute;
+            top: 100%;
+            right: 20px;
+            background-color: #1e293b;
+            width: 200px;
+            padding: 15px;
+            border-radius: 12px;
+            opacity: 90%;
+            display: none;
+            flex-direction: column;
+        }
+
+        .navbar.active ul {
+            display: flex;
+        }
+    }
