@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menghitung umur</title>
+    <link rel="stylesheet" href="FOR HITUNG UMUR.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Data Mahasiswa & Usia</h2>
+        <input type="text" id="nama" placeholder="Masukan Nama Anda">
+        <input type="text" id="nim" placeholder="Masukan Nim Anda">
+        <input type="text" id="tahun" placeholder="Masukan Tahun Lahir Anda">
+        <button onclick="HitungUmur()">Tampilkan</button>
+        <div id="hasil"></div>
+
+    </div>
+
+    <script> function
+    HitungUmur(){
+        let NamaMahasiswa = document.getElementById("nama").value;
+        let NimMahasiswa = document.getElementById("nim").value;
+        let TahunLahir = document.getElementById("tahun").value;
+
+       let TahunSekarang = new  Date(). getFullYear();
+       let umur = TahunSekarang - TahunLahir
+
+       document.getElementById("hasil"). innerHTML=
+       `<p>Nama : ${NamaMahasiswa}</p>
+       <p> Nim : ${NimMahasiswa}</p>
+       <p> Usia : ${umur} tahun</p>`;
+    }
+    </script>
+</body>
+</html>

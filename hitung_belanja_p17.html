@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p17</title>
+    <link rel="stylesheet" href="FOR P17.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Hitung Total Belanja</h2>
+        <label>Nama Pembeli :</label>
+        <input type="text" id="nama" placeholder="Masukan Nama Kamu">
+        <label>Harga Barang (Rp) :</label>
+        <input type="number" id="harga" placeholder="Masukan Harga Barang">
+        <label> Jumblah Barang :</label>
+        <input type="number" id="jumblah" placeholder="Masukan Jumblah Barang">
+        <button onclick="HitungTotal()">Mari Hitung</button>
+        <div id="hasil"></div>
+    </div>
+
+    <script> function
+    HitungTotal(){
+        //variable tipe data string & number
+        let namapembeli =document.getElementById("nama").value;
+        let HargaBarang = document.getElementById("harga").value;
+        let JumlahBarang = document.getElementById("jumblah").value;
+       
+        //operator aritmatika
+        let total = HargaBarang * JumlahBarang;
+       
+        //output HTML
+        document.getElementById("hasil").innerHTML= `<p>Halo <strong>${namapembeli}</strong>!<br>
+            Total Belanja Anda Adalah : <strong>RP ${total.toLocaleString()}</strong></p>`;}
+    
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(pink\ bg.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    width: 350px;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.15);
+}
+
+h2{
+    text-align: center;
+    color:palevioletred ;
+}
+
+label{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+input{
+    width: 90%;
+    padding: 8px;
+    margin: 6px 0 12px;
+    border-radius: 6px;
+    border: 1px solid palevioletred;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    background: palevioletred;
+    color: white;
+    transition: 0.3s ease;
+}
+
+button:hover{
+    background: pink;
+}
+ 
+#hasil{
+    margin-top: 15px;
+    font-size: 16px;
+    background: peachpuff;
+    padding: 10px;
+    border-left: 4px solid palevioletred;
+}
