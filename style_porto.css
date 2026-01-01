@@ -166,8 +166,7 @@ nav ul li a:hover {
 
 .profile img {
     width: 280px;
-    border-radius: 20px;
-    margin-top: -10px;
+    border-radius: 50%;
     align-self: flex-start;
     transition: transform 0.3s ease;
 }
@@ -655,7 +654,7 @@ footer {
     }
 
     .profile img {
-        width: 180px;
+        width: 250px;
         margin: 0 auto;
     }
 
